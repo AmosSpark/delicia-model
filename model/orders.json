@@ -1,0 +1,67 @@
+[ 
+ {
+  "id": 1,
+  "data": {
+    "orderNo": 1,
+    "customer": {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "phone": "(234) XXXX XXX XXX",
+      "location": {
+        "state": "Lagos",
+        "town": "Epe",
+        "address": "customer address"
+      }
+    },
+    "item": [
+      {
+        "id": 1,
+        "price":  1500,
+        "qty": 1
+      },
+      {
+        "id": 2,
+        "price":  5000,
+        "qty": 1
+      }
+    ],
+    "totalQty": 2,
+    "orderTimestamp": "02/03/22 08:42",
+    "deliveryTimestamp": "",   
+    "totalPrice": 6500,
+    "delivered": false,
+    "version": 1
+  }
+ },
+ {
+  "id": 2,
+  "data": {
+    "orderNo": 1,
+    "customer": {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "phone": "(234) XXXX XXX XXX",
+      "location": {
+        "state": "Lagos",
+        "town": "Alomosho",
+        "address": "customer address"
+      }
+    },
+    "item": [
+      {
+        "id": 2,
+        "price":  5000,
+        "qty": 1
+      }
+    ],
+    "totalQty": 1,
+    "orderTimestamp": "02/03/22 08:42",
+    "deliveryTimestamp": "",   
+    "totalPrice": 5000,
+    "delivered": false,
+    "version": 1
+  }
+ }
+]

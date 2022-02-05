@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+      "data": {
+        "itemId": 1,
+        "review": [
+            {
+              "customerId": 1,
+              "rating": 4,
+              "comment": "customer feedback here",
+              "tmestamp": "23/2/22"
+            },
+            {
+              "customerId": 2,
+              "rating": 3,
+              "comment": "customer feedback here",
+              "tmestamp": "23/2/22"
+            }
+        ],
+        "version": 1
+    } 
+  },
+  {
+    "id": 2,
+      "data": {
+        "itemId": 2,
+        "review": [
+            {
+              "customerId": 1,
+              "rating": 5,
+              "comment": "customer feedback here",
+              "tmestamp": "23/2/22"
+          }
+        ],
+        "version": 1
+    } 
+  }
+]
